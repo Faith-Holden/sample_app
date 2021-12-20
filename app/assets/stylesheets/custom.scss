@@ -72,6 +72,8 @@ p{
 }
 
 
+
+
 /* footer */
 
 footer{
@@ -178,19 +180,6 @@ input {
   height: auto !important;
 }
 
-// .btn{
-//   background-color: rgb(143, 110, 110);
-//   color: black;
-//   font-weight: bold;
-//   &:hover{
-//     background-color: rgb(158, 135, 135);
-//     color: black;
-//     font-weight: bold; 
-//   }
-//   &:
-// }
-
-/*form errors*/
 
 #error_explanation {
   color: red;
@@ -205,4 +194,18 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  span{
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
