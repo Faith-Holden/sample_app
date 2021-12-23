@@ -48,7 +48,7 @@ class User < ApplicationRecord
     end
 
     # returns a random token
-    def User.new_token
+    def new_token
       SecureRandom.urlsafe_base64
     end
   end
