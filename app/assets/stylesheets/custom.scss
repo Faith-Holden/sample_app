@@ -239,6 +239,11 @@ input {
     img{
       display: block;
       padding: 5px 0;
+      display: block;
+      max-width:500px;
+      max-height:500px;
+      width: auto;
+      height: auto;
     }
   }
   .timestamp{
