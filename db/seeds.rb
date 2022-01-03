@@ -20,9 +20,16 @@ User.create!(name: "Example User",
 end
 
 users = User.order(:created_at).take(6)
-users.each do |user|
-  50.times do |n|
+50.times do |n|
+  users.each do |user|
     content = Faker::Lorem.sentence
     user.microposts.create!(content: content)
   end
 end
+
+users = User.all
+user = User.first
+following = users[2..50]
+followers = users[3..40]
+following.each{|followed| user.follow(followed)}
+followers.each{|follower| follower.follow(user)}

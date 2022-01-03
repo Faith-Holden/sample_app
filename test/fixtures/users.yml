@@ -21,6 +21,13 @@ faith:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+malachi:
+  name: Malachi Test
+  email: malachi@test.cm
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%=Time.zone.now%>
+
 <% 30.times do |n| %>
 user_<%= n %>:
   name: <%= "User #{n}" %>

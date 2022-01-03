@@ -1,0 +1,12 @@
+one:
+  follower: michael
+  followed: malachi
+two:
+  follower: michael
+  followed: faith
+three:
+  follower: malachi
+  followed: michael
+four:
+  follower: faith
+  followed: michael
