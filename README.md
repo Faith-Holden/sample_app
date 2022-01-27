@@ -1,3 +1,7 @@
+This project was made as part of my first foray into rails with the book 
+The Ruby on Rails Tutorial, by Michael Hartl.
+Below are details provided by the book.
+
 # Ruby on Rails Tutorial sample application
 
 This is the sample application for
